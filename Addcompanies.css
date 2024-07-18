@@ -1,0 +1,50 @@
+
+body{
+    margin: 0;
+}
+.form-container{
+    width: 100vh;
+    height: 70vh;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 4vh;
+    border-radius:15px;
+    box-shadow: 0 50 10px rgba(0, 0, 0, 0.1)
+}
+
+h2{
+    text-align: center;
+    font-size: 5vh;
+    color: blue;
+}
+form{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-weight: bold;
+    margin-top: 2vh;
+    color: blue;
+    font-size: 3vh;
+    margin-left: 2vh;
+}
+input{
+    width: 80vh;
+    margin: auto;
+    
+}
+
+select{
+    width: 80vh;
+    margin: auto;
+}
+
+button{
+    background-color: blue;
+    color: aliceblue;
+    margin: auto;
+    margin-top: 2vh;
+}
+
